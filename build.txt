@@ -1,0 +1,3 @@
+displayName = tMod Worldgen Examples
+author = Reapermen
+version = 0.1
