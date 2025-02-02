@@ -16,6 +16,9 @@ namespace TmodloaderWorldExamples.WorldExamples
             if (advancedHouse != -1)
                 tasks.Insert(advancedHouse + 1, new AdvancedHouse("Advanced House", 237.4299f));
             */
+            int biome = tasks.FindIndex(genPass => genPass.Name.Equals("Final Cleanup"));
+            if (biome != -1)
+                tasks.Insert(biome + 1, new WorldBiomeExample("World Biome Example", 237.4300f));
         }
     }
 }
